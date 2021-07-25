@@ -25,8 +25,8 @@ def plot_validation_curve(estimator=None, title='Validation Curve', X=None, y=No
 
     # Creating the plot
     plt.title(title)
-    plt.xlabel("C")
-    plt.ylabel("Accuracy")
+    plt.xlabel("y")
+    plt.ylabel("Score")
     plt.tight_layout()
     plt.legend(loc='best')
     plt.show()
