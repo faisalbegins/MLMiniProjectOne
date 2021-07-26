@@ -10,6 +10,7 @@ matplotlib = "*"
 pandas = "*"
 seaborn = "*"
 tpot = "*"
+numpy = "*"
 
 [dev-packages]
 
